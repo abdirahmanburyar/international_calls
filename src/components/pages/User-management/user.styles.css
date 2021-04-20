@@ -1,0 +1,85 @@
+.moverHover:hover {
+    cursor: pointer;
+}
+._userAction {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 14px;
+    font-size: 6px;
+}
+.user_modal {
+    width: 50%;
+}
+.customModal {
+    width: 600px;
+    height: 220px;
+}
+.customModalUpdate {
+    width: 80%;
+    height: 95vh;
+}
+.actions {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    font-size: 20px;
+    gap: 10px;
+}
+.pagination {
+    display: flex;
+    border-top: 2px solid;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 19px 5px;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    gap: 10px;
+    padding: 10px;
+    font-size: 17px;
+}
+.no-record {
+    text-align: center;
+    font-size: 17px;
+    color: gray;
+}
+._user_header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid;
+    padding: 10px;
+}
+.show_and_hide {
+    padding: 10px;
+}
+.show_and_hide > div {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.export_data {
+    width: 200px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.tabs {
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 10px;
+}
+.user_name_update {
+    font-size: 23px;
+    font-weight: bold;
+    font-family: cursive;
+}
